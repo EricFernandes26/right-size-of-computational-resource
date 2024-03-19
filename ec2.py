@@ -30,14 +30,14 @@ def perguntar_servidor():
 
 def perguntar_recursos_servidor():
     cpu = input("Quantidade de CPU do servidor físico: ")
-    ram = input("Quantidade de memória RAM do servidor físico: ")
+    ram = input("Quantidade de memória RAM do servidor físico(GB): ")
     cpu = float(cpu.replace(',', '.'))  # Substituir vírgula por ponto decimal
     ram = float(ram.replace(',', '.'))  # Substituir vírgula por ponto decimal
     return cpu, ram
 
 def perguntar_recursos_maquina_virtual():
     cpu = input("Quantidade de VCPU na máquina virtual: ")
-    ram = input("Quantidade de memória RAM na máquina virtual: ")
+    ram = input("Quantidade de memória RAM na máquina virtual(GB): ")
     cpu = float(cpu.replace(',', '.'))  # Substituir vírgula por ponto decimal
     ram = float(ram.replace(',', '.'))  # Substituir vírgula por ponto decimal
     return cpu, ram
@@ -87,6 +87,7 @@ def gerar_frase(opcao_bd, opcao_servidor, recursos_servidor=None, recursos_vm=No
     return frase
 
 def main():
+    
     opcao_bd = perguntar_banco_dados()
     opcao_servidor = perguntar_servidor()
     
@@ -126,8 +127,7 @@ def main():
 
     response_body = json.loads(response.get('body').read())
 
-    # text
-    print(response_body.get('completion'))
+    return response_body.get('completion')
 
 if __name__ == "__main__":
     main()

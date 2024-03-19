@@ -40,6 +40,11 @@ Certifique-se de ter configurado corretamente suas permissões na AWS para acess
 Este script interage com o usuário por meio da linha de comando. Certifique-se de executá-lo em um ambiente compatível com a entrada do terminal.  
 
 ## Output do script
-![image](https://github.com/EricFernandes26/right-size-of-computational-resource/assets/83287307/1e1a0978-7e28-46be-a575-6f0dbc1007af)
+![image](https://github.com/EricFernandes26/right-size-of-computational-resource/assets/83287307/10fae232-34b8-4842-ac2c-d4a19524ba8c)  
+
+![image](https://github.com/EricFernandes26/right-size-of-computational-resource/assets/83287307/1f24112d-fc6d-4828-9aee-be3508e6dacb)  
+
+![image](https://github.com/EricFernandes26/right-size-of-computational-resource/assets/83287307/50b4049a-16c4-4e61-be16-2802d2657559)  
+
 
 

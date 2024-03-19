@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/templates/gear.png">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Resultado do EC2</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado do EC2</h1>
+        <div class="answer">
+            <p>{{ resultado }}</p>
+        </div>
+        <button id="atualizarPagina">Atualizar</button>
+    </div>
+
+    <script>
+        document.getElementById("atualizarPagina").addEventListener("click", function() {
+            location.reload();
+        });
+    </script>
+</body>
+</html>

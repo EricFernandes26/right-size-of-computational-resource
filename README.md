@@ -35,7 +35,7 @@ Integra-se com o serviço Bedrock da AWS para gerar uma resposta automatizada co
 * Aguarde a resposta gerada automaticamente pelo serviço Bedrock da AWS.
 
 ## Notas
-O Script exe.bat tem como padrao o diretorio "C:\Users\Administrator\Desktop\ok\ec2.py" altere para executar o script em sua maquina.    
+O Script exe.bat tem como padrao o diretorio "C:\Users\Administrator\Desktop\right-size-of-computational-resource\app.py" altere para executar o script em sua maquina.    
 Certifique-se de ter configurado corretamente suas permissões na AWS para acessar o serviço Bedrock.  
 Este script interage com o usuário por meio da linha de comando. Certifique-se de executá-lo em um ambiente compatível com a entrada do terminal.  
 

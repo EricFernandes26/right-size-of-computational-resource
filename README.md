@@ -26,11 +26,12 @@ Integra-se com o serviço Bedrock da AWS para gerar uma resposta automatizada co
 ## Instalação
 * Clone ou faça o download deste repositório.
 * Certifique-se de ter configurado corretamente suas credenciais da AWS, preferencialmente utilizando o AWS CLI.
-* Instale as dependências do Python executando o seguinte comando no terminal: pip install boto3
+* Instale as dependências do Python executando o seguinte comando no terminal: pip install boto3, flask, json
 
 ## Como Executar
 * Navegue até o diretório onde o script está localizado.
 * Execute o script  exe.bat
+* Abra uma pagina no seu navegado no seu LocalHost: http://127.0.0.1:5000
 * Siga as instruções fornecidas pelo script para responder às perguntas sobre o ambiente de banco de dados e servidor.
 * Aguarde a resposta gerada automaticamente pelo serviço Bedrock da AWS.
 
